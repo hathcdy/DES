@@ -376,7 +376,7 @@ int main(int argc, char const *argv[]) {
 	bitset<64> blocks[blockNum];
 	for (int i = 0; i < blockNum; ++i) {
 		string temp(plain, i * 8, 8);
-		printf("%s\n", temp.c_str());
+		//printf("%s\n", temp.c_str());
 		blockStrs.push_back(temp);		
 	}	
 	cout << "plaintext: " << str << endl;
